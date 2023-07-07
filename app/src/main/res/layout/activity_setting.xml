@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    tools:context=".SettingActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/displayMode"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+    <RadioGroup
+        android:id="@+id/displayMode"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <RadioButton
+        android:text="@string/lightmode"
+        android:id="@+id/lightmode"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </RadioButton>
+        <RadioButton
+            android:text="@string/darkmode"
+            android:id="@+id/darkmode"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </RadioButton>
+    </RadioGroup>
+    \<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="40dp"
+    android:text="@string/languageMode"
+    android:textSize="18dp"
+    android:textStyle="bold" />
+    <RadioGroup
+        android:id="@+id/languageMode"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:text="@string/vieLeng"
+            android:id="@+id/Viemode"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </RadioButton>
+        <RadioButton
+            android:text="@string/engLeng"
+            android:id="@+id/Engmode"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </RadioButton>
+    </RadioGroup>
+</LinearLayout>

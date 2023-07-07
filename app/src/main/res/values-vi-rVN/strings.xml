@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Trắc nghiệm địa lý</string>
+    <string name="true_button">Đúng</string>
+    <string name="false_button">Sai</string>
+    <string name="next_button">Tiếp theo</string>
+    <string name="correct_toast">Chính xác</string>
+    <string name="incorrect_toast">Chưa chính xác</string>
+    <string name="question_oceans">Thái Bình Dương lớn hơn Đại Tây Dương</string>
+    <string name="question_mideast">Kênh đào Suez nối Biển Đỏ và Ấn Độ Dương</string>
+    <string name="question_africa">Nguồn của sông Nile là ở Ai Cập</string>
+    <string name="question_americas">Sông Amazon là con sông dài nhất ở Amerias</string>
+    <string name="question_asia">Hồ Baikal là hồ nước ngọt lâu đời nhất và sâu nhất thế giới</string>
+    <string name="prev_button">Trước</string>
+    <string name="Question_text">CÂU HỎI</string>
+    <string name="vieLeng">Tiếng Việt</string>
+    <string name="engLeng">Tiếng Anh</string>
+    <string name="displayMode">CHẾ ĐỘ MÀN HÌNH</string>
+    <string name="darkmode">Chế độ tối</string>
+    <string name="lightmode">Chế độ sáng</string>
+    <string name="languageMode">NGÔN NGỮ</string>
+</resources>
